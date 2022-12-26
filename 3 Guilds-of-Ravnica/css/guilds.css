@@ -1,0 +1,74 @@
+
+.tablinks img{
+	width: 50px;
+}
+
+.tab{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+
+.tabcontent{
+  display: none;
+}
+
+.menu{
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  background-color: goldenrod;
+  z-index: 5;
+}
+
+button{
+  margin: auto;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+#tablist{
+  margin-top: 140px;
+}
+
+main{
+  max-width: 1200px;
+  border: 3px solid black;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+}
+
+main img{
+  width: 100%;
+  height: auto;
+}
+
+.bannertext{
+  width: 100%;
+  margin: auto;
+  background-color: hsla(55,80%,5%,0.4);
+  position: absolute;
+  top: 50%;
+}
+
+/*All the guildbanners */
+#bannerAzorius{
+  background-image: url("../img/gateFrontAzorius.jpg");
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  color: white;
+}
+
+#bannerOrzhov{
+  background-image: url("../img/gateFrontOrzhov.jpg");
+  background-position: center;
+  height: 600px;
+  text-align: center;
+  color: white;
+}
